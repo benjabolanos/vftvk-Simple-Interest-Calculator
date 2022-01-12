@@ -6,14 +6,36 @@ body {
 h1{
     color:grey;
     font-family:verdana;
-    font-size:27px;
+    font-size:29px;
 }
 
 .maindiv {
     background-color:white;
     color:black;
-    width:400px;
+    width:450px;
     padding:20px;
     border-radius:25px;
     margin: auto;
+    font-size: 16px;
+}
+
+.info{
+    padding-left: 72px;
+}
+
+.maindiv button{
+    margin-bottom: 15px;
+}
+
+#amount_label{
+    padding-right: 50px;
+}
+
+#rate_label{
+    padding-right: 13px;
+    padding-top: 100px;
+}
+
+#years_label{
+    padding-right: 18px;
 }
